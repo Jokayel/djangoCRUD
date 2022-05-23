@@ -10,3 +10,7 @@ def inicio(request):
 
 def nosotros(request):
     return render(request, 'paginas/nosotros.html')
+
+
+def productos(request):
+    return render(request, 'productos/index.html')
